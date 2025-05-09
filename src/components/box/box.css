@@ -1,0 +1,48 @@
+    .box {
+        width: 350px;
+        height: 250px;
+        border-radius: 8px;
+        box-shadow: 0 15px 30px -11px #83A6D280;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 32px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 100%;
+        color: #4D4F62;
+    }
+
+    .box-p {
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 23px;
+        letter-spacing: 0.09px;
+        color: #4D4F62;
+    }
+
+    img{
+        width: 64px;
+        position: relative;
+        left: 80%;
+        top: 20%;
+    }
+
+    @media screen and (max-width: 500px) {
+        .box {
+            width: 310px;
+            height: 222px;
+        }
+
+        img{
+            left: 75%;
+            top: 5%;
+        }
+
+    }
