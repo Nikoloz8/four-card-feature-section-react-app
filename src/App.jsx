@@ -3,7 +3,7 @@ import Box from "./components/box/Box.jsx"
 import TextContainer from "./components/text/Text.jsx"
 import IconCalculator from "./assets/icon-calculator.svg"
 import IconKarma from "./assets/icon-karma.svg"
-import IconSupervisor from ".assets/icon-supervisor.svg"
+import IconSupervisor from "./assets/icon-supervisor.svg"
 import IconTeamBuilder from "./assets/icon-team-builder.svg"
 
 
