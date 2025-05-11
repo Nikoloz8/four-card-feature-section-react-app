@@ -3,7 +3,8 @@ import "./box.css"
 export default function Box({ borderColor, h3Text, text, image }) {
     return (
         <div className="box" style={{
-            borderTop: `4px solid ${borderColor}`
+            borderTop: `4px solid ${borderColor}`,
+            backgroundImage: `url(${image})`
         }}>
             <h3>
                 {h3Text}
@@ -11,7 +12,7 @@ export default function Box({ borderColor, h3Text, text, image }) {
             <p className="box-p">
                 {text}
             </p>
-            <img src={image} alt="" />
+            {/* <img src={image} alt="" /> */}
         </div>
     )
 }
